@@ -1,0 +1,33 @@
+.alice-carousel__dots {
+  margin: 0;
+}
+
+.alice-carousel__dots-item:not(.__custom):not(:last-child) {
+  margin-right: 10px;
+}
+
+.alice-carousel__dots-item {
+  transition: all 0.4s ease-in-out;
+}
+
+.alice-carousel__dots-item:not(.__custom) {
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.alice-carousel__dots-item:not(.__custom):hover {
+  background-color: #13ADC7;
+}
+
+.alice-carousel__dots-item:not(.__custom).__active {
+  background-color: #13ADC7;
+  width: 30px;
+}
+
+.alice-carousel__next-btn,
+.alice-carousel__prev-btn {
+  display: none;
+}
